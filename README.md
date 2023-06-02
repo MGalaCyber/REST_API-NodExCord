@@ -63,7 +63,7 @@ npm install
 
 ## 📄 Configuration
 
-Rename `.env.example` to `.env` and fill out the values:
+- Rename `.env.example` to `.env` and fill out the values:
 
 ```env
 ### Express
@@ -74,12 +74,13 @@ SECRET=Random_Number (Encrypted & Unique Code Number Recommended)
 SCOPE=["identify", "email"] (Default)
 CLIENT_ID=Discord_Client_ID
 CLIENT_SECRET=Discord_Client_Secret
-CLIENT_CALLBACK=http://localhost:3000/auth/discord/callback
+CLIENT_CALLBACK=http://sitename.domain/auth/discord/callback
 
 ### Backend
 MONGO_URI=You_MongoDB_Url
 ```
-After installation or finishes all you can use `node .` to start the bot. or `Run Start.bat`
+- Go to [Discord Developer Portal](https://discord.com/developers/applications), then go to your **Application** > **Oauth2** > **Redirects**. Copy url from `CLIENT_CALLBACK` and paste to `Redirects` and save.
+- After installation or finishes all you can use `node .` to start the bot. or `Run Start.bat`
 
 ## 🔔 Notice!
 Now for Decrypted version is Available on [Ko-Fi Shop](https://ko-fi.com/galaxd1274/shop). You can buy like Basic/Master version with Different Features. By buying my project products, you help me to keep motivated and passionate about developing other projects.

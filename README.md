@@ -38,6 +38,7 @@
 ## 📑 Feature
 - [x] Rest API
 - [ ] Api Key Generator
+- [ ] Api Key Validator
 - [x] Login using Discord Oauth2
 - [x] User Authorized Check
 - [x] Easy to use

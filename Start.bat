@@ -1,6 +1,6 @@
 @echo off
 
-title REST API Template | Discord 0AUTH2 | Master Version
+title REST API Template | Discord 0AUTH2 | Basic Version
 
 :StartBot
 

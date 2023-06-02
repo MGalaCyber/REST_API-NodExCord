@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="/css/dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="<%= userAvatar %>" alt="Avatar" class="avatar">
+            <h2 class="name"><%= userName %></h2>
+            <p class="email"><%= userMail %></p>
+        </div>
+        <a href="/logout" class="logout-button">Logout</a>
+    </div>
+</body>
+</html>

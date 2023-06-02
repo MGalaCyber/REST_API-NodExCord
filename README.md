@@ -4,22 +4,22 @@
 
 <div align="center">
   
-  ![GitHub release (latest by date)](https://img.shields.io/github/v/release/MGalaCyber/REST_API_Template-Nodejs.Express.Discord?style=for-the-badge)
+  ![GitHub release (latest by date)](https://img.shields.io/github/v/release/MGalaCyber/REST_API-NodExCord?style=for-the-badge)
   ![Discord](https://img.shields.io/discord/826406117658853417?logo=discord&style=for-the-badge)
-  ![GitHub top language](https://img.shields.io/github/languages/top/MGalaCyber/REST_API_Template-Nodejs.Express.Discord?logo=javascript&style=for-the-badge)
-  ![GitHub forks](https://img.shields.io/github/forks/MGalaCyber/REST_API_Template-Nodejs.Express.Discord?logo=github&style=for-the-badge)
-  ![GitHub contributors](https://img.shields.io/github/contributors/MGalaCyber/REST_API_Template-Nodejs.Express.Discord?logo=github&style=for-the-badge)
-  ![GitHub issues](https://img.shields.io/github/issues/MGalaCyber/REST_API_Template-Nodejs.Express.Discord?logo=github&style=for-the-badge)
-  ![GitHub pull requests](https://img.shields.io/github/issues-pr/MGalaCyber/REST_API_Template-Nodejs.Express.Discord?logo=github&style=for-the-badge)
-  ![Watching](https://img.shields.io/github/watchers/MGalaCyber/REST_API_Template-Nodejs.Express.Discord?style=for-the-badge)
-  ![Stars](https://img.shields.io/github/stars/MGalaCyber/REST_API_Template-Nodejs.Express.Discord?style=for-the-badge)
-  ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/MGalaCyber/REST_API_Template-Nodejs.Express.Discord?style=for-the-badge)
+  ![GitHub top language](https://img.shields.io/github/languages/top/MGalaCyber/REST_API-NodExCord?logo=javascript&style=for-the-badge)
+  ![GitHub forks](https://img.shields.io/github/forks/MGalaCyber/REST_API-NodExCord?logo=github&style=for-the-badge)
+  ![GitHub contributors](https://img.shields.io/github/contributors/MGalaCyber/REST_API-NodExCord?logo=github&style=for-the-badge)
+  ![GitHub issues](https://img.shields.io/github/issues/MGalaCyber/REST_API-NodExCord?logo=github&style=for-the-badge)
+  ![GitHub pull requests](https://img.shields.io/github/issues-pr/MGalaCyber/REST_API-NodExCord?logo=github&style=for-the-badge)
+  ![Watching](https://img.shields.io/github/watchers/MGalaCyber/REST_API-NodExCord?style=for-the-badge)
+  ![Stars](https://img.shields.io/github/stars/MGalaCyber/REST_API-NodExCord?style=for-the-badge)
+  ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/MGalaCyber/REST_API-NodExCord?style=for-the-badge)
   
 </div>
 
 <div align="center">
 
-[![DeepSource](https://deepsource.io/gh/MGalaCyber/REST_API_Template-Nodejs.Express.Discord.svg/?label=active+issues&show_trend=true&token=vmwTEHQFGMlG6rjbmPBk-COL)](https://deepsource.io/gh/MGalaCyber/REST_API_Template-Nodejs.Express.Discord/?ref=repository-badge)
+[![DeepSource](https://deepsource.io/gh/MGalaCyber/REST_API-NodExCord.svg/?label=active+issues&show_trend=true&token=vmwTEHQFGMlG6rjbmPBk-COL)](https://deepsource.io/gh/MGalaCyber/REST_API-NodExCord/?ref=repository-badge)
 
 </div>
 
@@ -38,9 +38,13 @@
 ## 📑 Feature
 - [x] Rest API
 - [x] Api Key Generator
+- [x] Api Key Validator
 - [x] Login using Discord Oauth2
 - [x] User Authorized Check
 - [x] Easy to use
+
+## 📌 Note
+If you want REST API handler template without API Key Generator, you can get [HERE](https://github.com/MGalaCyber/REST_API-NodExCord/tree/basic)
 
 ## 📎 Requirements
 
@@ -52,8 +56,8 @@
 ## 📚 Installation
 
 ```
-git clone https://github.com/MGalaCyber/REST_API_Template-Nodejs.Express.Discord
-cd REST_API_Template-Nodejs.Express.Discord
+git clone -b master https://github.com/MGalaCyber/REST_API-NodExCord
+cd REST_API-NodExCord
 npm install
 ```
 
@@ -64,16 +68,16 @@ Rename `.env.example` to `.env` and fill out the values:
 ```env
 ### Express
 PORT=
-SECRET=
+SECRET=Random_Number (Encrypted & Unique Code Number Recommended)
 
 ### Discord
-SCOPE=["identify", "email"] # Default
-CLIENT_ID=
-CLIENT_SECRET=
+SCOPE=["identify", "email"] (Default)
+CLIENT_ID=Discord_Client_ID
+CLIENT_SECRET=Discord_Client_Secret
 CLIENT_CALLBACK=http://localhost:3000/auth/discord/callback
 
 ### Backend
-MONGO_URI=
+MONGO_URI=You_MongoDB_Url
 
 ### Length Random Key & Initialization Vector (for Api Key Generator)
 RANDOM_KEY=32
@@ -86,7 +90,7 @@ Now for Decrypted version is Available on [Ko-Fi Shop](https://ko-fi.com/galaxd1
 
 ## 🔐 Licensed
 
-Distributed under the `Apache 2.0 License`. See [`LICENSE`](https://github.com/MGalaCyber/REST_API_Template-Nodejs.Express.Discord/blob/master/LICENSE) for more information.
+Distributed under the `Apache 2.0 License`. See [`LICENSE`](https://github.com/MGalaCyber/REST_API-NodExCord/blob/master/LICENSE) for more information.
 
 ## 💝 Support Me
 
@@ -95,6 +99,6 @@ Distributed under the `Apache 2.0 License`. See [`LICENSE`](https://github.com/M
 
 ## ❣ Contributors
 
-<a href="https://github.com/MGalaCyber/REST_API_Template-Nodejs.Express.Discord/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=MGalaCyber/REST_API_Template-Nodejs.Express.Discord" />
+<a href="https://github.com/MGalaCyber/REST_API-NodExCord/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=MGalaCyber/REST_API-NodExCord" />
 </a>

@@ -42,6 +42,9 @@
 - [x] User Authorized Check
 - [x] Easy to use
 
+## 📌 Note
+If you want REST API handler template with API Key Generator, you can get [HERE](https://github.com/MGalaCyber/REST_API-NodExCord/tree/master)
+
 ## 📎 Requirements
 
 - [x] Node.JS v17+ or higher **[Download](https://nodejs.org/en/download)**

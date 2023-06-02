@@ -52,8 +52,8 @@
 ## 📚 Installation
 
 ```
-git clone https://github.com/MGalaCyber/REST_API_Template-Nodejs.Express.Discord
-cd REST_API_Template-Nodejs.Express.Discord
+git clone -b basic https://github.com/MGalaCyber/REST_API-NodExCord
+cd REST_API-NodExCord
 npm install
 ```
 
@@ -64,16 +64,16 @@ Rename `.env.example` to `.env` and fill out the values:
 ```env
 ### Express
 PORT=
-SECRET=
+SECRET=Random_Number (Encrypted & Unique Code Number Recommended)
 
 ### Discord
-SCOPE=["identify", "email"] # Default
-CLIENT_ID=
-CLIENT_SECRET=
+SCOPE=["identify", "email"] (Default)
+CLIENT_ID=Discord_Client_ID
+CLIENT_SECRET=Discord_Client_Secret
 CLIENT_CALLBACK=http://localhost:3000/auth/discord/callback
 
 ### Backend
-MONGO_URI=
+MONGO_URI=You_MongoDB_Url
 ```
 After installation or finishes all you can use `node .` to start the bot. or `Run Start.bat`
 
